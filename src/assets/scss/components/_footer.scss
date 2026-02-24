@@ -1,0 +1,40 @@
+.footer {
+    background-color: #333;
+    padding: 30px 0;
+    color: #fff;
+
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+
+        @include media(1040) {
+            flex-direction: column;
+        }
+    }
+
+    &__item-wrap {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    &__title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    &__item {
+        font-size: 14px;
+    }
+
+    &__qrimg {
+        width: 134px;
+        height: 134px;
+
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
