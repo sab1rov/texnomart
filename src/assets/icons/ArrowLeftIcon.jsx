@@ -1,5 +1,5 @@
 import * as React from "react"
-const SvgComponent = (props) => (
+const ArrowLeftIcon = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={16}
@@ -20,4 +20,4 @@ const SvgComponent = (props) => (
     </defs>
   </svg>
 )
-export default SvgComponent
+export default ArrowLeftIcon

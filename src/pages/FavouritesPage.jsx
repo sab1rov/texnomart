@@ -1,5 +1,5 @@
 import React from 'react'
-import SvgComponent from '../components/icons/strelka'
+import ArrowLeftIcon from '../assets/icons/ArrowLeftIcon'
 
 function FavouritesPage() {
   return (
@@ -7,7 +7,7 @@ function FavouritesPage() {
         <div className="container">
 
             <div className="favorite__header">
-                <SvgComponent />
+                <ArrowLeftIcon />
                 <p className="favorite__header-home"> Bosh sahifa </p>
                 <p className="favorite__header-favorite"> Sevimlilar </p>
             </div>
