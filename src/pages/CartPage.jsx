@@ -40,7 +40,7 @@ function CartPage() {
                       <div className="cardpage__count">
                         <button className="cardpage__count-pilus">+</button>
                         <p className="cardpage__count-number">{item.count}</p>
-                        <button className="cardpage__count-minus">--</button>
+                        <button className="cardpage__count-minus">-</button>
                       </div>
                       <div className="cardpage__card-price-div">
                         <p className="cardpage__card-price-2">{new Intl.NumberFormat("ru-RU").format(item.price2)} <sub>so'm</sub></p>

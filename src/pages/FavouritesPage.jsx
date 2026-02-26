@@ -32,14 +32,11 @@ function FavouritesPage() {
                         
                     <div className="cardpage__card-info">
                       <h3 className="cardpage__card-title">{item.name}</h3>
-                      <div className="cardpage__count">
-                        <button className="cardpage__count-pilus">+</button>
-                        <p className="cardpage__count-number">{item.count}</p>
-                        <button className="cardpage__count-minus">--</button>
-                      </div>
+                      <p className="favorite__sharx">⭐️ <strong>5</strong> - 1 ta sharh</p>
+                      <p className="favorite__card-price">500 000 so'mdan / 18 oy</p>
                       <div className="cardpage__card-price-div">
                         <p className="cardpage__card-price-2">{new Intl.NumberFormat("ru-RU").format(item.price2)} <sub>so'm</sub></p>
-                        <button className="cardpage__trash-button"><Trash /></button>
+                        <button className="cardpage__trash-button"><img src="/images/savat.svg" alt="" /></button>
                       </div>
                     </div>
                   </div>
